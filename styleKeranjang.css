@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*MEMBERI WARNA HEADER*/
+header{
+	background : linear-gradient(to right, #960083, #ec1063);
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #ec1063;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+	font-family: forte;
+}
+/* GESER MENU KE KIRI */
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+/*MENU JADI MENDATAR*/
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header #branding, header .active a{
+	color: #fff;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #960083;
+	font-weight: bold;
+}
+
+.konten{
+	padding: 20px 20px;
+	margin: 0px;
+
+}
+
+.danger{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 45px;
+	height: 10px;
+	padding: 7px 3px;
+	text-align: center;
+	font-size: 15px;
+	background: #ff0000;
+	border-radius: 5px;
+	padding-top: 3px;
+}
+
+.default{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	width: 140px;
+	height: 16px;
+	padding: 7px 3px;
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #6495ed;
+	border-radius: 5px;
+}
+
+.primary{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	width: 140px;
+	height: 20px;
+	padding: 7px 3px;
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #ffd700;
+	border-radius: 5px;
+}
+
+
+
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background : linear-gradient(to right, #960083, #ec1063);
+	text-align: left;
+	font-size: 13px;
+}
+
+/*MEDIA QUERY*/
+/*@media(max-width: 768px){
+	header #branding, 
+	header nav,
+	header nav li
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+}

@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background-color: #f4f4f4;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+/*MEMBERI WARNA HEADER*/
+header{
+	background : linear-gradient(to right, #960083, #ec1063);
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #ec1063;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+	font-family: forte;
+}
+/* GESER MENU KE KIRI */
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+/*MENU JADI MENDATAR*/
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header #branding, header a{
+	color: #fff;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #960083;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 350px;
+	background: url(img/home.png) no-repeat -70px -260px;
+	text-align: center;
+
+}
+
+
+#showcase h1{
+	margin-top: 120px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	color:#20b2aa;
+	border-color: #000;
+}
+
+#welcome{
+	padding: 15px;
+	color: #fff;
+	background : linear-gradient(to right, #ec1063, #960083);
+}
+
+#boxes{
+	margin-top: 20px;
+	min-height: 250px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 20px;
+	object-position: center;
+}
+
+#boxes .box img{
+	width: 100px;
+	margin-top: 10px;
+	height: 80px;
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background : linear-gradient(to right, #960083, #ec1063);
+	text-align: left;
+	font-size: 13px;
+}
+
+/*MEDIA QUERY*/
+@media(max-width: 768px){
+	header #branding, 
+	header nav,
+	header nav li,
+	#boxes .box
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+}

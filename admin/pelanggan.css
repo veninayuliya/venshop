@@ -1,0 +1,14 @@
+.danger{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 45px;
+	height: 10px;
+	padding: 7px 3px;
+	text-align: center;
+	font-size: 15px;
+	background: #ff0000;
+	border-radius: 5px;
+	padding-top: 3px;
+	margin: 5px;
+}

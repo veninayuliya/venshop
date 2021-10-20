@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background: url(img/bgputih.webp);
+	background-size: cover;
+	background-position: center;
+}
+
+h2{
+	font-family: sans-serif;
+	font-size: 22px;
+	color:#20b2aa;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.daftarbox{
+	width: 500px;
+	height: 520px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	opacity: 90%;
+}
+
+.daftarbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.daftarbox input{
+	width: 120%;
+	margin-bottom: 20px;
+}
+
+.daftarbox input[type="email"], input[type="text"], textarea
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.daftarbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #20b2aa;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.daftarbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #deb887;
+	color: #000;
+}
+
+div form{
+	margin: -30px 80px 0px -3px;
+	padding: 20px;
+	padding-top: -500px;
+}
+

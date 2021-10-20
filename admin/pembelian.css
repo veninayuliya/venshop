@@ -1,0 +1,14 @@
+.info{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	width: 45px;
+	height: 10px;
+	padding: 7px 3px;
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #a9a9a9;
+	border-radius: 5px;
+	margin: 5px;
+}

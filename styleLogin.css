@@ -1,0 +1,126 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background: url(img/bgputih.webp);
+	background-size: cover;
+	background-position: center;
+}
+
+h2{
+	font-family: sans-serif;
+	font-size: 22px;
+	color:#ec1063 ;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.avatar{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -50px;
+	left: 115px;
+}
+
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	opacity: 90%;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 120%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="email"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #ec1063;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #960083;
+	color: #000;
+}
+
+.loginbox a{
+	text-decoration: none;
+	color: #f5f5;
+}
+
+div form{
+	margin: -30px 50px 0px -3px;
+	padding: 20px;
+	padding-top: -500px;
+}
+
+
+.default{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	width: 300px;
+	height: 30px;
+	padding: 7px 13px;
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #6495ed;
+}
+
+.daftar{
+	color: #f4f4f4;
+}
+
+
+/*MEDIA QUERY*/
+@media(max-width: 768px){
+	header #branding, 
+	header nav,
+	header nav li,
+	#boxes .box
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+}

@@ -1,0 +1,42 @@
+.danger{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 45px;
+	height: 10px;
+	padding: 7px 3px;
+	text-align: center;
+	font-size: 15px;
+	background: #ff0000;
+	border-radius: 5px;
+	padding-top: 3px;
+}
+
+.default{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	width: 140px;
+	height: 16px;
+	padding: 7px 3px;
+	margin: 0px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #6495ed;
+	border-radius: 5px;
+}
+
+.primary{
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	width: 45px;
+	height: 10px;
+	padding: 7px 3px;
+	margin: 5px;
+	text-align: center;
+	font-size: 15px;
+	background-color: #ffd700;
+	border-radius: 5px;
+	padding-top: 3px;
+}
